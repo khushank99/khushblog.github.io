@@ -1,0 +1,103 @@
+		*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Muli', sans-serif;
+	}
+
+	html{
+		scroll-behavior: smooth;
+	}
+	 /*nav font*/
+	 .nav_font{
+font-family: 'Great Vibes', cursive;
+	 }
+
+
+	 .row{margin-right: 0!important margin-left:0!important;}
+
+	.main_header{
+		height: 550px;
+		width: 100%;
+		background-image: linear-gradient(to right, #EA8D8D, #A890FE );
+	}
+	.navbar{
+	   background-color:  #EA8D8D;
+	}
+
+	.leftside {
+		flex-direction: column;	
+	}
+	.main_header h2{
+		color: #006270;
+	}
+
+	/*font_styles*/
+	.fa {
+         padding: 20px;
+         font-size: 30px;
+         width: 60px;
+         text-align: center;
+         text-decoration: none;
+         margin: 5px 2px;
+         border-radius: 50%;
+
+    }
+   .fa:hover {
+         
+         background:linear-gradient(to top,#d465ef 0%, #615cfd 100%);
+    }
+
+.fa-facebook {
+  background:linear-gradient(to top,#615cfd 0%, #d465ef 100%);
+  color: white;
+}
+
+.fa-instagram {
+  background:linear-gradient(to top,#615cfd 0%, #d465ef 100%);
+  color: white;
+}
+
+.fa-twitter {
+   background:linear-gradient(to top,#615cfd 0%, #d465ef 100%);
+  color: white;
+}
+
+	 /*about section*/
+	.sub_section{
+   	background-color: #F7F7D2;
+    }
+
+    .about_me p{
+    	font-family: 'Muli', sans-serif;
+    	font-size: 1.625rem;
+    }
+
+	.footer_style{
+        background-color: black;
+	}
+	.footer_style p{
+		margin-bottom: 0!important
+	}
+
+
+
+	/*responsive*/
+	/*@media(max-width: 768px){
+	.main_header:{height: 800px text-align:center;}
+	.main_header h1{
+		text-align: center;
+		padding:0;
+		width: 100%;
+		font-size: 40px;
+
+	}
+	.count_style{
+		display: inline!important
+	}
+	.count_style p{
+        text-align: center;
+	}
+	.about_res{margin-left: 0!important;}
+}
+*/
